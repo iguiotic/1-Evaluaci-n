@@ -1,0 +1,16 @@
+# bucle tabla de multiplicar
+def tabla_1():
+    ntabla=input("dime el numero de tabla: ")
+    for cont in range(1,11):
+        print(str(int(ntabla)*cont))
+
+tabla_1()
+
+
+# bucle tabla de multicar plus
+def tabla_1():
+    ntabla=input("dime el numero de tabla: ")
+    for cont in range(1,11):
+        print(str(ntabla)+"*"+str(cont)+"= "+str(int(ntabla)*cont))
+
+tabla_1()
