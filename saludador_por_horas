@@ -1,0 +1,16 @@
+# te preginta la hora
+# te saluda según su respuesta
+def hora_saludar():
+    hora=int(input("Dime una hora: "))
+    if (hora<=0 or hora>=24):
+        print("no valida")
+    else:
+        if(hora>=6 and hora<=12):
+            print("Buenos dias")
+        else:
+            if(hora>12 and hora<20):
+                 print("Buenas tardes")
+            else:
+                print("Buenas noches")
+           
+hora_saludar()
