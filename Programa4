@@ -1,0 +1,26 @@
+# Cuarto programa hecho con Alberto
+def programa4(): 
+    variable=True
+    while variable==True:
+        dia=int(input("dime un numero del 1 al 5: "))
+        if dia==1:
+            print("¡feliz Lunes!")
+            variable=False
+        if dia==2:
+            print("¡feliz Martes!")
+            variable=False
+        if dia==3:
+            print("¡feliz Miércoles!")
+            variable=False
+        if dia==4:
+            print("¡feliz Jueves!")
+            variable=False
+        if dia==5:
+            print("¡feliz Viernes!")
+            variable=False
+        if dia<1 or dia>5:
+            print("es que no sabes leer")
+            variable=True
+    
+        
+programa4()
