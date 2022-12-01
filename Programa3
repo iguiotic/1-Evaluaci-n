@@ -1,0 +1,13 @@
+# Tercer programa hecho con Alberto
+def programa3():
+    hora=int(input("¿que hora es?: "))
+    if hora<=12:
+        print("buenos dias")
+    if hora<=18 and hora>12:
+        print("buenas tardes")
+    if hora<=24 and hora>18:
+        print("buenas noches")
+    if hora>=25:
+        print("¡vete a dormir!")
+        
+programa3()
