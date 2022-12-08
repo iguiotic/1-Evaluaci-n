@@ -37,7 +37,7 @@ def cajero_automatico():
             if seguir=="si" or seguir=="sí":
                 CA=True
             else:
-                print("Muchas gracias y hasta pronto")
+                print("Muchas gracias y hasta la proxima")
                 CA=False
         if respuesta==2:
             saldo=sacar(saldo)
@@ -45,11 +45,11 @@ def cajero_automatico():
             if seguir=="si" or seguir=="sí":
                 CA=True
             else:
-                print("Muchas gracias y hasta pronto")
+                print("Muchas gracias y hasta la proxima")
                 CA=False
             
         if respuesta==3:
-            print("Hasta pronto")
+            print("Proceso cancelado")
             CA=False
             
 cajero_automatico()
