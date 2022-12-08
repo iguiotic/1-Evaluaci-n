@@ -1,4 +1,4 @@
-# Tercer programa hecho con Alberto
+# Te saluda según la hora
 def programa3():
     hora=int(input("¿que hora es?: "))
     if hora<=12:
