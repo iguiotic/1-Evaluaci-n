@@ -2,6 +2,7 @@
 # 1. Ingresar dinero
 # 2. Sacar dinero
 # 3. Cancelar
+# Hecho en clase
 def menu():
     print("****************************")
     print("*********** MENU ***********")
