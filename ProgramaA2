@@ -1,4 +1,4 @@
-# Segundo programa hecha con Alberto
+# Te calcula la media
 def programa2():
     a=int(input("dime un numero: "))
     b=int(input("dime otro numero: "))
