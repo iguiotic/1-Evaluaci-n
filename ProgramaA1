@@ -1,13 +1,14 @@
-# Primer programa hecho con Alberto
+# Te pide un num del 1 al 20
+# Te responde según tu respuesta sea o no correcta 
 def programa():
-    hola=True
-    while hola==True:
+    h=True
+    while h==True:
         numero=int(input("dime un numero del 1 al 20: "))
         if numero<0 or numero>20:
           print("no te he pedido eso")
-          hola=True
+          h=True
         else:
             print("así me gusta")
-            hola=False
+            h=False
         
 programa()
