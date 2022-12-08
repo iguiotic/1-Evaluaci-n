@@ -1,0 +1,4 @@
+# Presentación de una variable
+# hecho en clase
+a="Antonio"
+print("Hola"+a)
