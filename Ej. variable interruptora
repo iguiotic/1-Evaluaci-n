@@ -3,14 +3,13 @@
 # sigue preguntando
 def hora_saludar():
     seguir=True
-    
     while(seguir==True):
         hora=int(input("Dime que hora es: "))
         if (hora<=0 or hora>=24):
             print("malos dias")
             seguir=True
         else:
-            segur=False
+            seguir=False
             if(hora>=6 and hora<=12):
                 print("Buenos dias")
             else:
