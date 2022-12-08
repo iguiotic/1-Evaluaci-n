@@ -1,6 +1,6 @@
 # te preginta la hora
 # te saluda según su respuesta
-# No sigue preguntando
+# hecho en clase
 def hora_saludar():
     hora=int(input("Dime una hora: "))
     if (hora<=0 or hora>=24):
