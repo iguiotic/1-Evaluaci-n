@@ -1,4 +1,5 @@
 # pide dos numeros y calcula la media
+# hecho en clase
 def calcula_media():
     #inicializo las variables
     n1=0
