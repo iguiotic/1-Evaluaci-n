@@ -1,0 +1,14 @@
+# Suma uno si la respuesta es 1 y resta uno si la respuesta es 2
+# acumula los valores del resultado
+def contador():
+    f=True
+    sumatorio=0
+    while f==True:
+        h=int(input("dime un numero del 1 al 2: "))
+        if h==1:
+            sumatorio+=1
+        else:
+            sumatorio-=1
+        print(sumatorio)
+    
+contador()
