@@ -27,7 +27,7 @@ def sacar(saldo):
 
 def cajero_automatico():
     CA=True
-    saldo=100
+    saldo=0
     print(menu())
     while CA==True:
         respuesta=int(input("¿Qué opción desea realizar?: "))
