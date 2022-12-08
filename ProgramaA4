@@ -1,4 +1,4 @@
-# Cuarto programa hecho con Alberto
+# Te saluda según el día de la semana
 def programa4(): 
     variable=True
     while variable==True:
