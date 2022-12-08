@@ -1,6 +1,7 @@
 # te pregunta la hora
 # te saluda según su respuesta
 # sigue preguntando
+# hecho en clase
 def hora_saludar():
     seguir=True
     while(seguir==True):
