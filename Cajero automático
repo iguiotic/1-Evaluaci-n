@@ -1,0 +1,54 @@
+# 1. Te muestra un menu con tres opciones
+# 1. Ingresar dinero
+# 2. Sacar dinero
+# 3. Cancelar
+def menu():
+    print("****************************")
+    print("*********** MENU ***********")
+    print("****************************")
+    print("Pulse '1' para ingresar dinero")
+    print("Pulse '2' para sacar dinero")
+    print("Pulse '3' para cancelar")
+
+def ingresar(saldo):
+    I=int(input("¿Qué cantidad desea ingresar?: "))
+    saldo+=I
+    print("su saldo actual es: "+str(saldo))
+    return(saldo)
+    
+def sacar(saldo):
+    S=int(input("¿Qué cantidad desea retirar?: "))
+    if (saldo-S)<0:
+        print("su saldo total es inferior a la cantidad solicitada")
+    else:
+        saldo-=S
+        print("su saldo actual es: "+str(saldo))
+
+def cajero_automatico():
+    CA=True
+    saldo=100
+    print(menu())
+    while CA==True:
+        respuesta=int(input("¿Qué opción desea realizar?: "))
+        if respuesta==1:
+            saldo=ingresar(saldo)
+            seguir=input("¿Desea continuar?: ")
+            if seguir=="si" or seguir=="sí":
+                CA=True
+            else:
+                print("Muchas gracias y hasta pronto")
+                CA=False
+        if respuesta==2:
+            saldo=sacar(saldo)
+            seguir=input("¿Desea continuar?: ")
+            if seguir=="si" or seguir=="sí":
+                CA=True
+            else:
+                print("Muchas gracias y hasta pronto")
+                CA=False
+            
+        if respuesta==3:
+            print("Hasta pronto")
+            CA=False
+            
+cajero_automatico()
