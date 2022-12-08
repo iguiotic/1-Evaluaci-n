@@ -1,0 +1,16 @@
+# Comprueba el num del DNI
+def nif():
+    v=True
+    letras="26056654T"
+    dni=int(input("Dime el numero de tu DNI: "))
+    resto=dni%9
+    while v==True:
+        letra=input("Dime la letra de tu DNI: ")
+        if letra==letras[resto+1]:
+            v==False
+            print("Correcto")
+        else:
+            v==True
+            print("Incorrecto")
+            
+nif()
